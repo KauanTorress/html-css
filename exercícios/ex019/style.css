@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Jersey+25+Charted&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Sedgwick+Ave+Display&display=swap');
+
+body {
+    background-color: #eb2bfc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #9714A3;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #78108192;
+    color: #580B5F;
+}
+
+h2 {
+    color: #B718C5;
+} 
+
+.basico {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: normal;
+    text-align: right;
+}
+
+.intermediario {
+    font-family: "Jaro", sans-serif;
+    font-weight: normal;
+    text-align: right;
+}
+
+.avancado {
+    font-family: "Major Mono Display", monospace;
+    text-align: right;
+}
+
+.destaque {
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: normal;
+    font-size: 2.5em;
+}
+
+p {
+    text-align: justify;
+}
