@@ -1,1 +1,5 @@
-Este é meu repositório de exercícios e desafios que fiz no decorrer do curso do professor Guanabara. Fiquem a vontade para verem os projetos que tenho aqui, e seus codes também
+# html-css
+Curso de HTML5 e CSS3 do CursoemVideo
+
+Estou aprendendo a criar sites eagora vou gerenciar meus repositórios1
+
