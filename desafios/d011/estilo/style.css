@@ -63,6 +63,10 @@ section {
     font-size: 3.8vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: #CEDEF2;
     color: black;
@@ -71,12 +75,26 @@ section.normal {
 section.imagem {
     background-color: var(--cor03);
     color: #CEDEF2;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.334);
+}
+
+section#img01 {
+background-image: url(../imagens/sol.jpg);
+
+}
+
+section#img02 {
+background-image: url(../imagens/lua.jpg);
 }
 
 section.imagem > p {
     padding: 10px;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.225);
+    background-color: rgba(0, 0, 0, 0.508);
+    text-shadow: 1px 1px 0px black;
 }
 
 footer {
