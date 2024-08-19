@@ -12,20 +12,34 @@
         table {
             border-collapse: collapse;
             width: 400px;
+            height: 400px
         }
 
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center;
+            vertical-align: middle;
         }
 
-        td.alerta {
-            background-color: black;
-            color: white;
+        td.numero {
+            vertical-align: top;
+            text-align: left;
         }
 
-        tr.linha {
-            background-color:darkcyan
+        td.numero2 {
+            vertical-align: bottom;
+            text-align: right;
+        }
+
+        td.numero3 {
+            vertical-align: top;
+            text-align: right;
+        }
+
+        td.numero4 {
+            text-align: left;
+            vertical-align: bottom;
         }
     </style>
 </head>
@@ -33,24 +47,24 @@
     <h1>Minha primeira tabela</h1>
     <table>
         <tr>
-            <td>A1</td>
+            <td class="numero">A1</td>
             <td>B1</td>
-            <td class="alerta">C1</td>
+            <td class="numero3">C1</td>
         </tr>
         <tr>
             <td>A2</td>
             <td>B2</td>
             <td>C2</td>
         </tr>
-        <tr class="linha">
+        <tr>
             <td>A3</td>
             <td>B3</td>
             <td>C3</td>
         </tr>
         <tr>
-            <td>A4</td>
+            <td class="numero4">A4</td>
             <td>B4</td>
-            <td>C4</td>
+            <td class="numero2">C4</td>
         </tr>
     </table>
 </body>
