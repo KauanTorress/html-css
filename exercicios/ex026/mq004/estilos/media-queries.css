@@ -1,3 +1,92 @@
 @charset "UTF-8";
 
 /* Estilo para todas as mídias restantes*/
+
+/* Impressora */
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: #000000;
+    }
+
+    img#pc {display: none;}
+    img#phone {display: none;}
+    img#print {display: block;}
+    img#tablet {display: none;}
+    img#tv {display: none;}
+}
+
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width:1024px) and (orientation: portrait) { /* retrato */ 
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img#pc {display: none;}
+    img#phone {display: none;}
+    img#print {display: none;}
+    img#tablet {display: block;}
+    img#tv {display: none;}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) and (orientation: landscape) { /* paisagem*/
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img#pc {display: none;}
+    img#phone {display: none;}
+    img#print {display: none;}
+    img#tablet {display: block;}
+    img#tv {display: none;}
+}
+
+/* Desktops menores */
+@media screen and (min-width: 1281px) and (max-width: 1440px) { 
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#pc {display: block;}
+    img#phone {display: none;}
+    img#print {display: none;}
+    img#tablet {display: none;}
+    img#tv {display: none;}
+}
+
+/* Desktops médios */
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#pc {display: block;}
+    img#phone {display: none;}
+    img#print {display: none;}
+    img#tablet {display: none;}
+    img#tv {display: none;}
+}
+
+
+/* TVs */
+@media screen and (min-width:1921px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    img#pc {display: none;}
+    img#phone {display: none;}
+    img#print {display: none;}
+    img#tablet {display: none;}
+    img#tv {display: block;}
+}
+
