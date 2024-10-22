@@ -55,3 +55,17 @@ article > p {
     text-align: justify;
     margin-bottom: 10px;
 }
+
+span#burger {
+    display: block;
+    text-align: center;
+    background-color: #00010D;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burger:hover {
+    color: black;
+    background-color: white;
+}
