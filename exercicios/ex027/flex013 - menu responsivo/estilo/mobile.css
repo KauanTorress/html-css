@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+header {
+    flex-flow: column nowrap;
+}
+
+header {
+    padding-bottom: 0px;
+}
+
+header > h1 {
+    flex-basis: 50px;
+}
+
+header > nav#items > a {
+    width: 100vw;
+    border: 1px solid white;
+    border-radius: 0px;
+    margin: 0px;
+}
+
+header > nav#items {
+    flex-flow: column nowrap;
+    display: none;
+}
+
+span#burger {
+    display: block;
+}
+

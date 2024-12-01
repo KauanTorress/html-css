@@ -32,7 +32,7 @@ header > h1 {
     flex: 0 0 180px;
 }
 
-header > nav {
+header > nav#items {
     border: 1px dashed black;
 
     display: flex;
@@ -40,7 +40,7 @@ header > nav {
     justify-content: flex-end;
 }
 
-header > nav > a {
+header > nav#items > a {
     background-color: black;
     color: white;
     padding: 10px;
@@ -50,7 +50,7 @@ header > nav > a {
     text-align: center;
 }
 
-nav > a:hover {
+nav#items > a:hover {
     background-color: white;
     color: black;
     transition: background-color .3s;
@@ -58,7 +58,8 @@ nav > a:hover {
 
 main {
     background-color: white;
-    margin: 0px 20px;
+    width: 80vw;
+    margin: auto;
     border-radius: 0px 0px 10px 10px;
     padding: 10px;
 }
@@ -72,4 +73,8 @@ p {
     text-align: justify;
     margin-bottom: 5px ;
 
+}
+
+span#burger {
+    display: none;
 }
